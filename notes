@@ -1,0 +1,37 @@
+Expert systems:- knowledge base in prolog: facts, rules
+GUI - java
+Prolog intelligent engine + sql database at back end
+
+Write data to  file
+
+Symptoms- would have the symptoms for regular,mild and severe Covid
+        - would have the symptoms for delta and mu strains
+
+Lifestyle-would have like alcohol and stress etc.
+
+Disease-would have like asthma etc.
+
+Diagnosis sets the values.
+
+Recommendations would give info based on bmi or exercise etc. then give an overall recommendation.
+
+Need
+1. Steps require in short and long term
+2. Need to diagnose/Identify - regular covid, delta variant, mu variant
+3. Capture temp in C, change to F
+4. If dizzy,faint,blurred vision - capture systolic & diastolic values to check high or low blood
+pressure
+4a. Option to allow addition of other systptoms for blood pressure check
+5.Option to query system to provide:
+    % of persons (based on total diagnosed) who are at risk or have vovid
+    $ with mild symptoms
+    % with severe symptoms
+    % with dela
+    % with mu
+6. provide MOH with advice regarding actions required and alert  the authorities of any spike or
+usual increase in reports of people prone to have or have covid
+
+//Outline for error popups
+If radiobuttone.getselection() != null
+else
+showpopup(popup.POPUPTYPE.missingquestion)
